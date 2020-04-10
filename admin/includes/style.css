@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #9ba500;
+}
+
+.form{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+
+input[type=text], input[type=password], input[type=submit], select,input[type=number]{
+	box-sizing: border-box;
+	width: 500px;
+	height: 40px;
+	font-size: 1.2em;
+	padding: 10px 20px;
+	border-radius: 10cm;
+	margin-bottom: 20px;
+}
+
+input[type=submit]{
+	background-color: yellow;
+}
+
+.l{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div a{
+	margin-top: 10px;
+	text-decoration: none;
+
+}
+.a:link, .a:visited, .a {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
